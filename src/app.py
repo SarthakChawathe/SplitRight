@@ -19,10 +19,10 @@ class App(customtkinter.CTk):
         self.geometry(f"{self.width}x{self.height}")
         self.resizable(False, False)
         
-        self.iconbitmap(".\\images\\icon.ico")
+        self.iconbitmap(os.path.join(".", "Images", "icon.ico"))
+
         # load and create background image
-        current_path = os.path.dirname(os.path.realpath(__file__))
-        self.bg_image = customtkinter.CTkImage(Image.open(current_path + "\\images\\bg_gradient.jpg"),
+        self.bg_image = customtkinter.CTkImage(Image.open(os.path.join(".", "Images", "bg_gradient.jpg")),
                                                size=(self.width, self.height))
         self.bg_image_label = customtkinter.CTkLabel(self, image=self.bg_image)
         self.bg_image_label.grid(row=0, column=0)
@@ -61,14 +61,6 @@ class App(customtkinter.CTk):
             print("Checkbox is disabled")
             split.preserve_folder_structure = False
 
-        # # create main frame
-        # self.main_frame = customtkinter.CTkFrame(self, corner_radius=0)
-        # self.main_frame.grid_columnconfigure(0, weight=1)
-        # self.main_label = customtkinter.CTkLabel(self.main_frame, text="CustomTkinter\nMain Page",
-        #                                          font=customtkinter.CTkFont(size=20, weight="bold"))
-        # self.main_label.grid(row=0, column=0, padx=30, pady=(30, 15))
-        # self.back_button = customtkinter.CTkButton(self.main_frame, text="Back", command=self.back_event, width=200)
-        # self.back_button.grid(row=1, column=0, padx=30, pady=(15, 15))
 
     def browse_file(self):
         global label
@@ -86,22 +78,6 @@ class App(customtkinter.CTk):
                                                         text="Output Directory:"+split.getParsedConfig(self.file_path.get()).get("OUTPUT"),
                                                         font=customtkinter.CTkFont(size=12))
             self.output_path_label.grid(row=4, column=0, padx=40, pady=(10, 0), sticky="w")
-            # self.label.configure(text='Selected file: ' + file_path)
-            #simulate_upload()
-        # else:
-        #     label.configure(text='No file selected')
-        # if file_path:
-        #     self.file_path.set(file_path)
-        #     # Create progress bar
-        #     self.progress_bar = CTkProgressBar(self.login_frame, width=200)
-        #     self.progress_bar.grid(row=3, column=0, padx=30, pady=(15, 15))
-        #     # Simulate file upload progress
-        #     for i in range(101):
-        #         self.progress_bar.set(i)
-        #         self.progress_bar.update()  # Update the progress bar
-        #         #time.sleep(0.5)  # Simulating file upload delay
-        #     self.progress_bar.grid_forget()  # Remove progress bar after upload is complete
-
 
     def convert_file(self):
         print("Convert pressed - file path:", self.file_path.get())
@@ -116,16 +92,6 @@ class App(customtkinter.CTk):
         #     progress_label_convert.configure(text=f'{i}%')
         #     progress_bar_convert.update()
         #     time.sleep(0.03)
-        
-    def login_event(self):
-        print("Login pressed - file path:", self.file_path.get())
-
-        self.login_frame.grid_forget()  # remove login frame
-        self.main_frame.grid(row=0, column=0, sticky="nsew", padx=100)  # show main frame
-
-    def back_event(self):
-        self.main_frame.grid_forget()  # remove main frame
-        self.login_frame.grid(row=0, column=0, sticky="ns")  # show login frame
 
 
 if __name__ == "__main__":
