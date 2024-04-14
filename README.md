@@ -48,7 +48,7 @@ mix assets.deploy
 ## Usage
 1) Open PDF: Click on the "Open PDF" button to select the PDF file you want to split.
 2) OCR Processing: The application will process the PDF using OCR to identify text content.
-3) Set Splitting Parameters: Define the criteria for splitting the PDF (e.g., by page, by keyword).
+3) Set Splitting Parameters: Define the criteria for splitting the PDF (e.g.by keyword, by pixel location).
 4) Split PDF: Click on the "Split" button to initiate the splitting process.
 5) Save Split PDFs: Choose the destination folder for the split PDF files and click "Save".
 
