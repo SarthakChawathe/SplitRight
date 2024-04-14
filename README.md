@@ -2,14 +2,14 @@
 Splitting PDFs with ease.
 
 ## Table of Contents
-- [Introduction](https://github.com/pbadhe/SplitPDF/edit/main/README.md#introduction)
-- [General notes](https://github.com/pbadhe/SplitPDF/edit/main/README.md#general-notes)
-- [Dependencies](https://github.com/pbadhe/SplitPDF/edit/main/README.md#dependencies)
-- [Application Setup](https://github.com/pbadhe/SplitPDF/edit/main/README.md#application-setup)
-- [Features](https://github.com/pbadhe/SplitPDF/edit/main/README.md#features)
-- [How to use](https://github.com/pbadhe/SplitPDF/edit/main/README.md#how-to-use)
-- [System requirements](https://github.com/pbadhe/SplitPDF/edit/main/README.md#system-requirements)
-- [Screenshots](https://github.com/pbadhe/SplitPDF/edit/main/README.md#screenshots)
+- [Introduction](https://github.com/pbadhe/SplitPDF/tree/main/README.md#introduction)
+- [General notes](https://github.com/pbadhe/SplitPDF/tree/main/README.md#general-notes)
+- [Dependencies](https://github.com/pbadhe/SplitPDF/tree/main/README.md#dependencies)
+- [Application Setup](https://github.com/pbadhe/SplitPDF/tree/main/README.md#application-setup)
+- [Features](https://github.com/pbadhe/SplitPDF/tree/main/README.md#features)
+- [How to use](https://github.com/pbadhe/SplitPDF/tree/main/README.md#how-to-use)
+- [System requirements](https://github.com/pbadhe/SplitPDF/tree/main/README.md#system-requirements)
+- [Screenshots](https://github.com/pbadhe/SplitPDF/tree/main/README.md#screenshots)
 
 ## Introduction 
 This standalone desktop application is designed to split PDF files using Optical Character Recognition (OCR) technology. 
