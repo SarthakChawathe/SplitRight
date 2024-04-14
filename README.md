@@ -5,6 +5,8 @@ Splitting PDFs with ease
 ## General notes
 
 To run this app you need python and Tesseract installed on machine.
+- ![Link to install Tesseract on Windows](https://ironsoftware.com/csharp/ocr/blog/ocr-tools/install-tesseract/)
+
 
 ## Dependencies
 
