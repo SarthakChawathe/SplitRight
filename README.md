@@ -1,11 +1,24 @@
 # SplitPDF
-Splitting PDFs with ease
+Splitting PDFs with ease.
 
+## Table of Contents
+- [Introduction](https://github.com/pbadhe/SplitPDF/edit/main/README.md#introduction)
+- [General notes](https://github.com/pbadhe/SplitPDF/edit/main/README.md#general-notes)
+- [Dependencies](https://github.com/pbadhe/SplitPDF/edit/main/README.md#dependencies)
+- [Application Setup](https://github.com/pbadhe/SplitPDF/edit/main/README.md#application-setup)
+- [Features](https://github.com/pbadhe/SplitPDF/edit/main/README.md#features)
+- [How to use](https://github.com/pbadhe/SplitPDF/edit/main/README.md#how-to-use)
+- [System requirements](https://github.com/pbadhe/SplitPDF/edit/main/README.md#system-requirements)
+- [Screenshots](https://github.com/pbadhe/SplitPDF/edit/main/README.md#screenshots)
+
+## Introduction 
+This standalone desktop application is designed to split PDF files using Optical Character Recognition (OCR) technology. 
+It provides a user-friendly interface for easily splitting PDF documents based on their content, making it a handy tool for organizing and managing PDF files efficiently.
 
 ## General notes
 
-To run this app you need python and Tesseract installed on machine.
-- ![Link to install Tesseract on Windows](https://ironsoftware.com/csharp/ocr/blog/ocr-tools/install-tesseract/)
+To run this app you need python and Tesseract installed on machine. 
+- Link to install Tesseract on Windows: https://ironsoftware.com/csharp/ocr/blog/ocr-tools/install-tesseract/
 
 
 ## Dependencies
@@ -48,7 +61,7 @@ mix assets.deploy
 
 
 ## System Requirements
-- Operating System: Windows 7/8/10, macOS, or Linux
+- Operating System: Windows 10/11, macOS, or Linux
 - Processor: Dual-core processor or higher
 - RAM: 2GB or more
 - Disk Space: 100MB of free space
