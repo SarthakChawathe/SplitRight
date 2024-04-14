@@ -10,6 +10,7 @@ Splitting PDFs with ease.
 - [How to use](https://github.com/pbadhe/SplitPDF/tree/main/README.md#how-to-use)
 - [System requirements](https://github.com/pbadhe/SplitPDF/tree/main/README.md#system-requirements)
 - [Screenshots](https://github.com/pbadhe/SplitPDF/tree/main/README.md#screenshots)
+- [Link to Download Application](https://github.com/pbadhe/SplitPDF/edit/main/README.md#link-to-final-dashboard)
 
 ## Introduction 
 This standalone desktop application is designed to split PDF files using Optical Character Recognition (OCR) technology. 
@@ -74,4 +75,7 @@ mix assets.deploy
 ![Android build](/nodeploy/android_todo.png?raw=true "Android build")
 ![iOS build](/nodeploy/ios_todo.png?raw=true "iOS build")
 
+
+## Link to Download Application
+Link : https://lookerstudio.google.com/s/sQyFkRE_B0o
 
