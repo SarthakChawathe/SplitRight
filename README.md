@@ -1,41 +1,34 @@
-# SplitPDF
-Splitting PDFs with ease.
+# SplitRight
+![image]https://github.com/pbadhe/SplitRight/blob/main/Images/LegalDocuments.jpeg
 
-## Table of Contents
-- [Introduction](https://github.com/pbadhe/SplitPDF/tree/main/README.md#introduction)
-- [General notes](https://github.com/pbadhe/SplitPDF/tree/main/README.md#general-notes)
-- [Dependencies](https://github.com/pbadhe/SplitPDF/tree/main/README.md#dependencies)
-- [Application Setup](https://github.com/pbadhe/SplitPDF/tree/main/README.md#application-setup)
-- [Features](https://github.com/pbadhe/SplitPDF/tree/main/README.md#features)
-- [How to use](https://github.com/pbadhe/SplitPDF/tree/main/README.md#how-to-use)
-- [System requirements](https://github.com/pbadhe/SplitPDF/tree/main/README.md#system-requirements)
-- [Screenshots](https://github.com/pbadhe/SplitPDF/tree/main/README.md#screenshots)
-- [Link to Download Application](https://github.com/pbadhe/SplitPDF/edit/main/README.md#link-to-final-dashboard)
+SplitRight is a standalone tool designed with ease of use in mind. It effortlessly splits combined PDF documents into individual files, catering specifically to the needs of legal firms. Powered by Optical Character Recognition (OCR) technology, it automates the process of document organization and management. With its user-friendly interface and efficient functionality, our tool offers a seamless solution for legal professionals seeking to streamline their workflow and enhance productivity.
 
-## Introduction 
-This standalone desktop application is designed to split PDF files using Optical Character Recognition (OCR) technology. 
-It provides a user-friendly interface for easily splitting PDF documents based on their content, making it a handy tool for organizing and managing PDF files efficiently.
+# Features
+1. PDF Splitting: Split PDF files into multiple documents based on text content.
+2. OCR Technology: Utilizes Optical Character Recognition to accurately identify text in PDF files.
+3. User-Friendly Interface: Intuitive design for easy navigation and operation.
+4. Customizable Settings: Adjust settings for OCR accuracy and PDF splitting preferences.
+5. Save Options: Choose where to save split PDF files for convenient access.
 
-## General notes
+# How to Use
+1. Open PDF: Click on the "Browse" button to select the PDF file you want to split.
+2. OCR Processing: The application will process the PDF using OCR to identify text content.
+3. Set Splitting Parameters: Define the criteria for splitting the PDF (e.g. by Labels, by Location).
+4. Split PDF: Click on the "Convert" button to initiate the splitting process.
+5. Save Split PDFs: Choose the destination folder or path for the split PDF files and click "Save".
 
-To run this app you need python and Tesseract installed on machine. 
-- Link to install Tesseract on Windows: https://ironsoftware.com/csharp/ocr/blog/ocr-tools/install-tesseract/
+# Installation
+To use SplitRight, follow these steps:
+1. Download SplitRight: Visit our website at abc.com and download the SplitRight.exe file.
+2. Install Dependencies: Open your preferred terminal and run the following commands to install the necessary dependencies:
+   1. customtkinter
+   2. pytesseract
+   3. tesseract
+   4. tesserocr
+4. Run SplitRight: Once the dependencies are installed, navigate to the location where you downloaded the SplitRight.exe file and run it.
+5. Enjoy SplitRight: Congratulations! You're now ready to use SplitRight to effortlessly split your combined PDFs. Happy organizing!
 
-
-## Dependencies
-
-This assumes you've got installed:
-
-- git
-- tk
-- numpy
-- customtkinter
-- pytesseract
-- tesseract
-- tesserocr
-
-
-## Application set-up
+# Application set-up
 
 Run:
 
@@ -46,30 +39,14 @@ cd ..
 mix assets.deploy
 ```
 
-## Features
-1) PDF Splitting: Split PDF files into multiple documents based on text content.
-2) OCR Technology: Utilizes Optical Character Recognition to accurately identify text in PDF files.
-3) User-Friendly Interface: Intuitive design for easy navigation and operation.
-4) Customizable Settings: Adjust settings for OCR accuracy and PDF splitting preferences.
-5) Save Options: Choose where to save split PDF files for convenient access.
+# System Requirements
+1. Operating System: Windows 10/11, macOS, or Linux
+2. Processor: Dual-core processor or higher
+3. RAM: 2GB or more
+4. Disk Space: 100MB of free space
 
-## How to Use
-- Open PDF: Click on the "Browse" button to select the PDF file you want to split.
-- OCR Processing: The application will process the PDF using OCR to identify text content.
-- Set Splitting Parameters: Define the criteria for splitting the PDF (e.g. by Labels, by Location).
-- Split PDF: Click on the "Convert" button to initiate the splitting process.
-- Save Split PDFs: Choose the destination folder or path for the split PDF files and click "Save".
-
-
-## System Requirements
-- Operating System: Windows 10/11, macOS, or Linux
-- Processor: Dual-core processor or higher
-- RAM: 2GB or more
-- Disk Space: 100MB of free space
-
-## Screenshots
+# Screenshots
 ![Website](/Images/website.png)
 
-## Link to Download Application
+# Link to Download Application
 Link : https://lookerstudio.google.com/s/sQyFkRE_B0o
-
