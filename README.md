@@ -8,7 +8,7 @@ SplitRight is a standalone tool designed with ease of use in mind. It effortless
 
 # Features
 1. PDF Splitting: Split PDF files into multiple documents based on text content.
-2. OCR Technology: Utilizes Tesseract which is one of the fastest Optical Character Recognition tool to accurately identify content in PDF files.
+2. OCR Technology: Utilizes Tesseract which is one of the fastest Optical Character Recognition technique to accurately identify content in PDF files.
 3. User-Friendly Interface: Intuitive design for easy navigation and operation.
 
 # How to Use
@@ -17,7 +17,7 @@ SplitRight is a standalone tool designed with ease of use in mind. It effortless
    2. The output path where you want the separated PDFs to be stored.
    3. The basis on which you want the PDFs to be split (e.g., based on specific text).
    4. The location or coordinates of the keywords on the page of the PDF where they can be found for splitting. Below image is for reference.
-   <img src="https://github.com/pbadhe/SplitRight/blob/main/Images/Sample_Config_file.png" alt="Image Description" width="400" height="200">
+   <img src="https://github.com/pbadhe/SplitRight/blob/main/Images/Sample_Config_file.png" alt="Image Description" width="600" height="300">
 2. OCR Processing: The application will process the PDF using OCR to identify text content.
 3. Split PDF: Click on the "Convert" button to initiate the splitting process.
 
@@ -34,7 +34,6 @@ To start using SplitRight, simply follow these steps:
    2. pytesseract
    3. tesseract
    4. tesserocr
-These dependencies are required for the development and testing of SplitRight.
 3. Run SplitRight: Once the dependencies are installed, you can run SplitRight from the cloned repository to test your changes or contribute to the project.
 4. Happy Coding: You're all set to dive into the SplitRight codebase! Happy coding!
 
@@ -56,7 +55,6 @@ mix assets.deploy
 4. Disk Space: 100MB of free space
 
 # Screenshots
-![Website](/Images/website.png)
 
 # Link to Download Application
 Link : https://lookerstudio.google.com/s/sQyFkRE_B0o
