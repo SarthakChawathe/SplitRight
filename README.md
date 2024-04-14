@@ -8,7 +8,7 @@ To run this app you need python and Tesseract installed on machine.
 
 ## Dependencies
 
-This example assumes you've got installed:
+This assumes you've got installed:
 
 - git
 - tk
@@ -18,8 +18,6 @@ This example assumes you've got installed:
 - tesseract
 - tesserocr
 
-If you want to build for iOS you'll also need xcode and in order to build for Android you'll need the
-Android Studio.
 
 ## Application set-up
 
