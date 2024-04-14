@@ -3,7 +3,7 @@
 SplitRight is a standalone tool designed with ease of use in mind. It effortlessly splits combined PDF documents into individual files, catering specifically to the needs of legal firms. Powered by Optical Character Recognition (OCR) technology, it automates the process of document organization and management. With its user-friendly interface and efficient functionality, our tool offers a seamless solution for legal professionals seeking to streamline their workflow and enhance productivity.
 
 # Features
-1. PDF Splitting: Split PDF files into multiple documents based on text content.
+1. PDF Splitting: Split PDF files from a folder (subdirectories included) into multiple documents based on text content with pdf.
 2. OCR Technology: Utilizes Tesseract which is one of the fastest Optical Character Recognition technique to accurately identify content in PDF files.
 3. User-Friendly Interface: Intuitive design for easy navigation and operation.
 4. **Preserve Folder Structure** (Additional feature): Privilege to save the new split pdfs near the original pdf's folder to help organize pdfs into subdirectories instead saving all files mixed together in one output folder.
