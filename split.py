@@ -5,8 +5,9 @@ import helper
 def start_splitting(config_file_path):
     config_content = helper.read_config_file(config_file_path)
     
-    doc = fitz.open("127.pdf") # open document
+    doc = fitz.open("C:\\Users\\badhe\\Downloads\\127.pdf") # open document
 
+    parsed_config = {}
     try:
         parsed_config = helper.parse_config(config_content)
         if not parsed_config.get("OCR"):
@@ -15,18 +16,18 @@ def start_splitting(config_file_path):
         print(e)
     
     try:
-        split_pdf(doc)
+        split_pdf(doc, parsed_config)
     except Exception as e:
         print(e)
 
 
-def split_pdf(doc):
+def split_pdf(doc, parsed_config):
     title_visited = set()
     current_title = ""
     current_doc = fitz.open()
     for i, page in enumerate(doc):
         if not current_title:
-            for config in helper.parsed_config.get("OCR"): 
+            for config in parsed_config.get("OCR"): 
                 title = config[0]
                 location = config[1]
                 if helper.get_ocr_title(page, title, location, helper.CONST_zoom_factor):
@@ -35,8 +36,7 @@ def split_pdf(doc):
                     break
 
         else:
-            new_title_found = False
-            for config in helper.parsed_config.get("OCR"): 
+            for config in parsed_config.get("OCR"): 
                 title = config[0]
                 location = config[1]
                 if helper.get_ocr_title(page, title, location, helper.CONST_zoom_factor):

@@ -1,4 +1,7 @@
 tk
+numpy
 customtkinter
 pytesseract
+tesseract
 tesserocr
+easyocr

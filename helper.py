@@ -1,6 +1,8 @@
 import fitz
 from PIL import Image
+import numpy as np
 import pytesseract
+# import easyocr
 
 CONST_zoom_factor = 2
 
@@ -41,14 +43,17 @@ def read_config_file(file_path):
     return config_content
 
 
-# def get_zoom_matrix(zoom_factor):
-#     return fitz.Matrix(zoom_factor, zoom_factor)
-
 def get_ocr_title(page, title, location, zoom_factor):
+    # TO-DO what if text? page.get_text()
     page.set_cropbox(fitz.Rect(location[0], location[1], location[2], location[3]))
     pix = page.get_pixmap(matrix = zoom_factor)
     img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
     text = pytesseract.image_to_string(img)
+
+    # reader = easyocr.Reader(['en'], 'cpu')
+    # results = reader.readtext(np.array(img))
+    # text = ' '.join([result[1] for result in results])
+
     page.set_cropbox(page.mediabox)
 
     return True if (title.lower() in text.lower()) else False   # Lowercase Appearance 

@@ -52,8 +52,9 @@ def run_conversion():
 def start_conversion(file_path, output_dir):
     global result_text
     try:
-        # result = subprocess.run(['python', 'dummy.py', file_path], capture_output=True, text=True, check=True)
-        # result_text = result.stdout
+        print("Ithe aloooo")
+        print("Ithe aloooo")
+        print("Ithe aloooo")
         split.start_splitting(file_path)
 
         for i in range(101):
@@ -86,7 +87,6 @@ def save_result():
         messagebox.showinfo('Save Result', f'Result saved to {output_file}')
     else:
         messagebox.showwarning('Save Result', 'No result to save.')
-
 
 
 #MAIN
