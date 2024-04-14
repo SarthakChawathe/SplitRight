@@ -39,6 +39,13 @@ cd ..
 mix assets.deploy
 ```
 
+## Features
+1) PDF Splitting: Split PDF files into multiple documents based on text content.
+2) OCR Technology: Accurately identifies text in PDF files using OCR.
+3) User-Friendly Interface: Intuitive design for easy navigation and operation.
+4) Customizable Settings: Adjust settings for OCR accuracy and PDF splitting preferences.
+5) Save Options: Choose where to save split PDF files for convenient access.
+
 
 ## Usage
 1) Open PDF: Click on the "Open PDF" button to select the PDF file you want to split.
