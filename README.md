@@ -1,5 +1,6 @@
 # SplitRight
-![image]https://github.com/pbadhe/SplitRight/blob/main/Images/LegalDocuments.jpeg
+![image](https://github.com/pbadhe/SplitRight/blob/main/Images/LegalDocuments.jpeg)
+
 
 SplitRight is a standalone tool designed with ease of use in mind. It effortlessly splits combined PDF documents into individual files, catering specifically to the needs of legal firms. Powered by Optical Character Recognition (OCR) technology, it automates the process of document organization and management. With its user-friendly interface and efficient functionality, our tool offers a seamless solution for legal professionals seeking to streamline their workflow and enhance productivity.
 
