@@ -1,33 +1,42 @@
 # SplitRight
-![image](https://github.com/pbadhe/SplitRight/blob/main/Images/LegalDocuments.jpeg)
+
+<img src="https://github.com/pbadhe/SplitRight/blob/main/Images/LegalDocuments.jpeg" alt="Image Description" width="600" height="400">
 
 
+# Introduction
 SplitRight is a standalone tool designed with ease of use in mind. It effortlessly splits combined PDF documents into individual files, catering specifically to the needs of legal firms. Powered by Optical Character Recognition (OCR) technology, it automates the process of document organization and management. With its user-friendly interface and efficient functionality, our tool offers a seamless solution for legal professionals seeking to streamline their workflow and enhance productivity.
 
 # Features
 1. PDF Splitting: Split PDF files into multiple documents based on text content.
-2. OCR Technology: Utilizes Optical Character Recognition to accurately identify text in PDF files.
+2. OCR Technology: Utilizes Tesseract which is one of the fastest Optical Character Recognition tool to accurately identify content in PDF files.
 3. User-Friendly Interface: Intuitive design for easy navigation and operation.
-4. Customizable Settings: Adjust settings for OCR accuracy and PDF splitting preferences.
-5. Save Options: Choose where to save split PDF files for convenient access.
 
 # How to Use
-1. Open PDF: Click on the "Browse" button to select the PDF file you want to split.
+1. Open the Configuration file: Click the "Browse" button to select the configuration file. This file contains the following information:
+   1. The path of the PDF file you wish to upload.
+   2. The output path where you want the separated PDFs to be stored.
+   3. The basis on which you want the PDFs to be split (e.g., based on specific text).
+   4. The location or coordinates of the keywords on the page of the PDF where they can be found for splitting. Below image is for reference.
+   <img src="https://github.com/pbadhe/SplitRight/blob/main/Images/Sample_Config_file.png" alt="Image Description" width="400" height="200">
 2. OCR Processing: The application will process the PDF using OCR to identify text content.
-3. Set Splitting Parameters: Define the criteria for splitting the PDF (e.g. by Labels, by Location).
-4. Split PDF: Click on the "Convert" button to initiate the splitting process.
-5. Save Split PDFs: Choose the destination folder or path for the split PDF files and click "Save".
+3. Split PDF: Click on the "Convert" button to initiate the splitting process.
 
-# Installation
-To use SplitRight, follow these steps:
+# Installation Steps for Users:
+To start using SplitRight, simply follow these steps:
 1. Download SplitRight: Visit our website at abc.com and download the SplitRight.exe file.
-2. Install Dependencies: Open your preferred terminal and run the following commands to install the necessary dependencies:
+2. Run SplitRight: Once the download is complete, navigate to the location where you downloaded the SplitRight.exe file and run it.
+3. Enjoy SplitRight: Congratulations! You're now ready to use SplitRight to effortlessly split your combined PDFs. Happy organizing!
+
+# Installation Steps for Developers:
+1. If you're a developer and want to contribute to SplitRight or customize it further, follow these steps to set up your development environment:
+2. Clone the Repository: Clone the SplitRight repository from GitHub to your local machine.
    1. customtkinter
    2. pytesseract
    3. tesseract
    4. tesserocr
-4. Run SplitRight: Once the dependencies are installed, navigate to the location where you downloaded the SplitRight.exe file and run it.
-5. Enjoy SplitRight: Congratulations! You're now ready to use SplitRight to effortlessly split your combined PDFs. Happy organizing!
+These dependencies are required for the development and testing of SplitRight.
+3. Run SplitRight: Once the dependencies are installed, you can run SplitRight from the cloned repository to test your changes or contribute to the project.
+4. Happy Coding: You're all set to dive into the SplitRight codebase! Happy coding!
 
 # Application set-up
 
