@@ -14,6 +14,7 @@ SplitRight is a standalone tool designed with ease of use in mind. It effortless
 1. PDF Splitting: Split PDF files into multiple documents based on text content.
 2. OCR Technology: Utilizes Tesseract which is one of the fastest Optical Character Recognition technique to accurately identify content in PDF files.
 3. User-Friendly Interface: Intuitive design for easy navigation and operation.
+4. Priviledge to preserve folder structure.
 
 # How to Use
 1. Open the Configuration file: Click the "Browse" button to select the configuration file. This file contains the following information:
