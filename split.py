@@ -56,7 +56,7 @@ def save_pdf(doc, current_doc, current_title, title_visited, output_dir):
         visited_doc.close()
 
 
-def start_splitting(config_file_path):
+def getParsedConfig(config_file_path):
     config_content = helper.read_config_file(config_file_path)
     parsed_config = {}
     try:
@@ -66,7 +66,13 @@ def start_splitting(config_file_path):
             print("No text configurations found")
     except ValueError as e:
         print(e)
-        
+
+    return parsed_config
+
+
+def start_splitting(config_file_path):
+    parsed_config = getParsedConfig(config_file_path)
+    
     try:
         input_dir = parsed_config.get("INPUT")
         for root, _, files in os.walk(input_dir):
