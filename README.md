@@ -68,12 +68,6 @@ mix assets.deploy
 - Disk Space: 100MB of free space
 
 ## Screenshots
-
-![Linux build](/nodeploy/linux_todo.png?raw=true "Linux build")
-![Windows build](/nodeploy/windows_todo.png?raw=true "Windows build")
-![MacOS build](/nodeploy/macos_todo.png?raw=true "MacOS build")
-![Android build](/nodeploy/android_todo.png?raw=true "Android build")
-![iOS build](/nodeploy/ios_todo.png?raw=true "iOS build")
 ![Website](/Images/website.png)
 
 ## Link to Download Application
