@@ -5,17 +5,18 @@ Splitting PDFs with ease
 ## General notes
 
 To run this app you need python and Tesseract installed on machine.
-Elixir 1.11.4.
 
 ## Dependencies
 
 This example assumes you've got installed:
 
 - git
-- Elixir, at least 1.11.4
-- Erlang, at least OTP 24
-- npm
-- C compiler (make/nmake) for SQLite
+- tk
+- numpy
+- customtkinter
+- pytesseract
+- tesseract
+- tesserocr
 
 If you want to build for iOS you'll also need xcode and in order to build for Android you'll need the
 Android Studio.
