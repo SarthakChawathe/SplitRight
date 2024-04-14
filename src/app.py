@@ -19,10 +19,10 @@ class App(customtkinter.CTk):
         self.geometry(f"{self.width}x{self.height}")
         self.resizable(False, False)
         
-        self.iconbitmap(os.path.join(".", "Images", "icon.ico"))
+        self.iconbitmap(os.path.join("..", "Images", "icon.ico"))
 
         # load and create background image
-        self.bg_image = customtkinter.CTkImage(Image.open(os.path.join(".", "Images", "bg_gradient.jpg")),
+        self.bg_image = customtkinter.CTkImage(Image.open(os.path.join("..", "Images", "bg_gradient.jpg")),
                                                size=(self.width, self.height))
         self.bg_image_label = customtkinter.CTkLabel(self, image=self.bg_image)
         self.bg_image_label.grid(row=0, column=0)
