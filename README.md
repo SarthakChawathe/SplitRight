@@ -1,11 +1,6 @@
 # SplitPDF
 Splitting PDFs with ease
 
-
-# TodoApp: A Desktop Sample App
-
-This application is a simple PDF-splitting tool desktop application.
-
 ## Changes in 1.1
 
 - Updated to Phoenix 1.7 and LiveView 0.18
