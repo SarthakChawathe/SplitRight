@@ -18,7 +18,7 @@ Elixir 1.11.4.
 
 ## Dependencies
 
-This example assumes you've got installed:
+Make sure to install the following dependecies:
 
 - git
 - tk
