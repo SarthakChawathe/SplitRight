@@ -4,7 +4,6 @@ import tkinter as tk
 from tkinter import filedialog, messagebox
 import subprocess
 from threading import Thread
-import tkinterDnD
 import time
 import split 
 
@@ -52,9 +51,9 @@ def run_conversion():
 def start_conversion(file_path, output_dir):
     global result_text
     try:
-        print("Ithe aloooo")
-        print("Ithe aloooo")
-        print("Ithe aloooo")
+        # FROM GUI -> preserve folder structure
+        #          -> output folder
+        split.preserve_folder_structure = False # Default
         split.start_splitting(file_path)
 
         for i in range(101):
@@ -62,8 +61,7 @@ def start_conversion(file_path, output_dir):
             progress_label_convert.configure(text=f'{i}%')
             progress_bar_convert.update()
             time.sleep(0.03)
-        # if i == 100:
-        #     show_result(result.stdout)
+
     except subprocess.CalledProcessError as e:
         print('Error:', e)
     finally:
@@ -91,7 +89,6 @@ def save_result():
 
 #MAIN
 
-ctk.set_ctk_parent_class(tkinterDnD.Tk)
 ctk.set_appearance_mode("dark") 
 ctk.set_default_color_theme("blue")
 

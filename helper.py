@@ -1,8 +1,7 @@
 import fitz
 from PIL import Image
-import numpy as np
 import pytesseract
-# import easyocr
+import os
 
 CONST_zoom_factor = 2
 
@@ -33,7 +32,9 @@ def parse_config(config_string):
                     
                     loc_value = tuple(coordinates)
                     config_dict["OCR"].append((value, loc_value))
-                    
+    
+    config_dict["OUTPUT"] = os.path.normpath(config_dict["OUTPUT"])
+    config_dict["INPUT"] = os.path.normpath(config_dict["INPUT"])
     return config_dict
 
 
